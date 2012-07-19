@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;	public class Document extends MovieClip	{		public var survivalGame:SurvivalGame;		public function Document() 		{			survivalGame = new SurvivalGame();			addChild(survivalGame);		}	}	}
